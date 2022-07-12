@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Gulzar&display=swap');
+body{
+    background-color: rgb(196, 201, 199);
+}
+*{
+   margin: 0; 
+   padding:0;
+}
+nav{
+    font-family: 'Gulzar', serif;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:80px;
+    background-color: rgb(31, 23, 74);
+    color:rgb(226, 227, 218);
+    border-radius: 10px;
+
+}
+nav ul li{
+    /* padding:0 0px; */
+    
+}
+.brand img{
+    width:75px;
+    padding:15px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight:bolder ;
+    font-size: 2rem;
+    
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: rgba(237, 243, 246, 0.908);
+    font-family: 'Gulzar', serif;
+    display: flex;
+    margin: 25px auto;
+    width: 85%;
+    border-radius:20px ;
+    padding: 20px;
+    background-image: url('4.jpg');
+    
+    
+}
+.bottom {
+    position: sticky;
+    height:120px;
+    background-color: black;
+    color:white;
+    bottom: 0;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 15px; */
+    border-radius: 10px;
+    
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+    height: 10px;
+   
+}
+
+.songItemContainer{
+    margin-top: 75px;
+
+}
+.songItem{
+    height:45px;
+    width:170%;
+    display: flex;
+    background-color: rgb(224, 217, 196);
+ 
+    color: rgb(89, 3, 249);
+    margin: 16px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+
+
+
+}
+.songItem img{
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 35px;
+}
+.timestamp{
+    margin:0 23px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+
+}
+.songInfo{
+    position: absolute;
+    left:9vw;
+    font-family: 'Gulzar', serif;
+}
+.songInfo img{
+   opacity: 0;
+   transition: opacity .4s ease-in;
+   height: 60px;
+   top:27px;
+   position:relative;
+   
+  
+   
+}
